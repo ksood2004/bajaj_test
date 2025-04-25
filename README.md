@@ -1,3 +1,38 @@
+Here is the Tech Stack section :-:
+
+ Tech Stack
+
+This project is built using the following technologies:
+
+ 1. Spring Boot
+   - Description: A Java-based framework that simplifies the development of production-grade applications. It provides an embedded server, automatic configuration, and easy-to-use features for building REST APIs and microservices.
+   - Version Used: Spring Boot 2.x
+   
+ 2. Java
+   - Description: A high-level, class-based, object-oriented programming language. It's widely used for building robust backend applications.
+   - Version Used: Java 8 or higher.
+
+ 3. Maven
+   - Description: A build automation tool used for managing dependencies, building the project, and running tests in Java-based projects. It helps in managing the project's lifecycle.
+   - Version Used: Maven 3.x
+
+ 4. Spring Web (RestTemplate/WebClient)
+   - Description: Part of the Spring framework, used for making HTTP requests. In this project, `RestTemplate` or `WebClient` is used for interacting with the remote API on application startup.
+   - Version Used: Spring Web 5.x
+   
+ 5. JWT (JSON Web Tokens)
+   - Description: A compact, URL-safe means of representing claims to be transferred between two parties. JWT is used to authenticate and authorize requests to the webhook URL.
+   - Version Used: jjwt (Java JWT Library)
+
+ 6. JSON
+   - Description: JavaScript Object Notation (JSON) is the format used for exchanging data between the application and the remote API. It's also used for structuring the request and response bodies.
+   - Version Used: Jackson (Jackson JSON processor library)
+
+
+
+   
+
+   - 
  Spring Boot Application - API Interaction on Startup
 
 This is a Spring Boot application that interacts with a remote API automatically at application startup without any manual HTTP trigger. The application performs the following steps:
